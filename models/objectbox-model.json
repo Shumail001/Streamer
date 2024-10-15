@@ -1,0 +1,129 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3730907597553742834",
+      "lastPropertyId": "3:4736056337548406699",
+      "name": "EncoderModel",
+      "properties": [
+        {
+          "id": "1:1439176170655404775",
+          "name": "Id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3793273354329931500",
+          "name": "EncoderType",
+          "type": 9
+        },
+        {
+          "id": "3:4736056337548406699",
+          "name": "SourceID",
+          "type": 9
+        }
+      ]
+    },
+    {
+      "id": "2:6444445560490718757",
+      "lastPropertyId": "3:7261808873683271757",
+      "name": "OutputModel",
+      "properties": [
+        {
+          "id": "1:7351687616856659282",
+          "name": "Id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7167624351029066555",
+          "name": "EncoderId",
+          "type": 9
+        },
+        {
+          "id": "3:7261808873683271757",
+          "name": "OutPutType",
+          "type": 9
+        }
+      ]
+    },
+    {
+      "id": "3:2842299620067348701",
+      "lastPropertyId": "8:1198032553794617174",
+      "name": "SrcModel",
+      "properties": [
+        {
+          "id": "1:4746881662858461100",
+          "name": "Id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7237681225176016847",
+          "name": "Protocol",
+          "type": 9
+        },
+        {
+          "id": "3:7916842376671709873",
+          "name": "Address",
+          "type": 9
+        },
+        {
+          "id": "4:2043476687526791604",
+          "name": "Port",
+          "type": 9
+        },
+        {
+          "id": "5:8129777769187532494",
+          "name": "Path",
+          "type": 9
+        },
+        {
+          "id": "6:8087570224107894457",
+          "name": "Url",
+          "type": 9
+        },
+        {
+          "id": "7:2803231714610880808",
+          "name": "CreatedAt",
+          "type": 9
+        },
+        {
+          "id": "8:1198032553794617174",
+          "name": "UpdatedAt",
+          "type": 9
+        }
+      ]
+    },
+    {
+      "id": "4:4100077747862286081",
+      "lastPropertyId": "2:6391521544834447653",
+      "name": "RtspSrcModel",
+      "properties": [
+        {
+          "id": "1:3051761207703842650",
+          "name": "Id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6391521544834447653",
+          "name": "Src",
+          "type": 9
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "4:4100077747862286081",
+  "lastIndexId": "",
+  "lastRelationId": "",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
